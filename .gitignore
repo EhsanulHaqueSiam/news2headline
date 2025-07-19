@@ -212,3 +212,7 @@ __marimo__/
 /src/wandb/
 /unsloth_compiled_cache/
 /src/cleaned_headline_dataset.csv
+/.kiro/steering/product.md
+/.kiro/steering/structure.md
+/.kiro/steering/tech.md
+/training_optimization_tips.py
