@@ -1,0 +1,45 @@
+[project]
+name = "news2headline"
+version = "0.1.0"
+description = "Generate headlines from news articles"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "datasets>=3.6.0",
+    "gdown>=5.2.0",
+    "huggingface-hub>=0.33.4",
+    "jupyter>=1.1.1",
+    "nltk>=3.9.1",
+    "notebook>=7.4.4",
+    "python-dotenv>=1.1.1",
+    "rouge-score>=0.1.2",
+    "scikit-learn>=1.7.1",
+    "setuptools>=61.0",
+    "unsloth>=2025.7.5",
+    "wandb>=0.21.0",
+    "wheel>=0.45.1",
+]
+
+[tool.uv]
+
+[tool.uv.workspace]
+members = [
+    "news2headline",
+]
+# UV configuration (optional)
+# e.g., default-script = "main.py"
+
+[tool.unsloth]
+# Define environments for running Jupyter notebooks
+[tool.unsloth.environments.notebook]
+python = "3.12"
+dependencies = [
+  "ipykernel",
+  "notebook",
+  "nbformat",
+]
+
+[build-system]
+requires = ["setuptools>=61.0","wheel"]
+build-backend = "setuptools.build_meta"
+
