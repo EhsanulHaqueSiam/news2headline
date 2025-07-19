@@ -1,0 +1,99 @@
+HEADLINE GENERATION EVALUATION RESULTS
+==================================================
+
+METRICS:
+rouge1: 0.4362881258546062
+rouge2: 0.20233828075151938
+rougeL: 0.38416924236336286
+bleu: 0.0892935575330521
+avg_generated_length: 8.004
+avg_reference_length: 8.34
+length_ratio: 0.9597122302158273
+success_rate: 1.0
+exact_match_rate: 0.01
+total_samples: 500
+valid_samples: 500
+
+
+SAMPLE HEADLINES:
+------------------------------
+
+Example 1:
+Reference: Cumilla AL leader arrested on allegations of 'creating disorder'
+Generated: Ex-public prosecutor Selim arrested in Cumilla
+
+Example 2:
+Reference: Panama protesters burn Trump's image over canal threat
+Generated: Panamanians burn Trump's image amid canal threat
+
+Example 3:
+Reference: US judge rules against Trump in watchdog dismissal case
+Generated: Judge rules against Trump’s ability to fire heads of agencies
+
+Example 4:
+Reference: Internet becomes more affordable; Faiz Taiyeb outlines multi-level price reductions
+Generated: Digital future gets more affordable as internet reduces significantly
+
+Example 5:
+Reference: Mithun Chakraborty, Afsana Mimi to star in Manas Mukul Pal’s next film
+Generated: Mithun-Chakraborti-‘Afsana’ starrer ‘Humayun Ahmed’s’ script under wraps
+
+Example 6:
+Reference: Adviser Nahid urged not to waste money on projects
+Generated: ‘Several projects to be completed’
+
+Example 7:
+Reference: Dry weather with slight temperature rise expected across Bangladesh
+Generated: Dry weather expected across Bangladesh
+
+Example 8:
+Reference: Lower gas prices: BTMA
+Generated: Textile millers urge govt to cut gas price below Tk 20
+
+Example 9:
+Reference: People deserve to know election time: Tarique Rahman
+Generated: People have rights to know tenure of interim govt: Tarique Rahman
+
+Example 10:
+Reference: Israel has stolen over 2,000 bodies from Gaza graves
+Generated: Israel kidnapped more than 2000 bodies exhumed from cemeteries
+
+Example 11:
+Reference: Teacher vs veterinarian: Uruguay's presidential frontrunners
+Generated: Left-wing history teacher, center-right vet go head-to-head in Uruguay presidential race
+
+Example 12:
+Reference: Bangladeshi footballers return home from KSA
+Generated: Bangladesh team arrives home from Saudi Arabia
+
+Example 13:
+Reference: Rinku anticipates comeback to music
+Generated: ‘May my singing persist’
+
+Example 14:
+Reference: Salman, ex-IGP Mamun shown arrested in attempted murder case
+Generated: Salman, Mamun shown arrested in attempt to murder case
+
+Example 15:
+Reference: Garment workers block Dhaka-Mymensing highway
+Generated: RMG workers block Dhaka-Mymensingh highway to press for demands
+
+Example 16:
+Reference: Sk Trims completes paying all due dividends
+Generated: Sk Trims pays all due dividends
+
+Example 17:
+Reference: Modi greets Hasina on Eid-ul-Azha
+Generated: Eid represents ‘sacrifice, compassion and brotherhood’: Modi to Sheikh Hasina
+
+Example 18:
+Reference: NCP leaders to meet chief adviser tonight
+Generated: Chief adviser to receive NCP delegation later today
+
+Example 19:
+Reference: 20 physically challenged people struggling to reclaim insurance deposits
+Generated: Gold scam: Policyholders struggle to collect money
+
+Example 20:
+Reference: Two ships carrying 48,750 tonnes rice arrive from India, Pakistan
+Generated: 2 ships with rice arrive in Ctg port

@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-07-20T01:55:16.217580",
+  "model_name": "unsloth/Llama-3.2-1B-Instruct-bnb-4bit",
+  "evaluation_type": "unsloth_optimized_inference",
+  "sample_size": 1000,
+  "metrics": {
+    "rouge1": 0.42162607640470084,
+    "rouge2": 0.1845360729633956,
+    "rougeL": 0.3736842658585899,
+    "bleu": 0.08601794181141781,
+    "avg_generated_length": 7.952,
+    "avg_reference_length": 8.365,
+    "length_ratio": 0.9506276150627615,
+    "success_rate": 1.0,
+    "exact_match_rate": 0.011,
+    "total_samples": 1000,
+    "valid_generations": 1000
+  },
+  "sample_results": [
+    {
+      "reference": "Stock market trading sees upward trend",
+      "generated": "Stock market sees uptick in morning trade",
+      "content_preview": "Trading at the Dhaka and Chattogram stock exchanges began with an upward trend on Thursday, the last..."
+    },
+    {
+      "reference": "Rain expected in 3 divisions",
+      "generated": "Thunderstorms may occur in several regions; otherwise, partly cloudy skies expected",
+      "content_preview": "The Meteorological Department has forecasted that thunderstorms with rain may occur in a few places ..."
+    },
+    {
+      "reference": "5 killed in separate road, train accidents",
+      "generated": "Road accidents kill three in Bangladesh",
+      "content_preview": "In Gazipur, two people were killed, and two others injured in a head-on collision between a private ..."
+    },
+    {
+      "reference": "US and Iran close to nuclear deal: Trump",
+      "generated": "Trump says Iran'sort of' agreed to nuclear deal",
+      "content_preview": "US President Donald Trump said that Iran has \"sort of\" agreed to the terms of a nuclear deal with hi..."
+    },
+    {
+      "reference": "\u2018Introduce ration for RMG workers\u2019",
+      "generated": "Rationing for RMG workers: Participants demand fair budget",
+      "content_preview": "A rationing system must be introduced for readymade garment (RMG) workers and low-income people, dem..."
+    },
+    {
+      "reference": "Nepali breaks own record with 31st Everest summit",
+      "generated": "Nepali climber 'Everest Man' reaches record 31st time",
+      "content_preview": "A 55-year-old Nepali climber dubbed the \"Everest Man\" reached the peak of the world's highest mounta..."
+    },
+    {
+      "reference": "D\u00edaz comes through for Madrid against Atletico in Champions League",
+      "generated": "D\u00edaz earns yellow card in Champions League debutante",
+      "content_preview": "Kylian Mbapp\u00e9 couldn\u2019t find his stride. Vin\u00edcius J\u00fanior wasn\u2019t much of a threat. It was Brahim D\u00edaz ..."
+    },
+    {
+      "reference": "Bangladesh move up in FIFA rankings after draw against India",
+      "generated": "Bangladesh improves its FIFA ranking despite losing to India",
+      "content_preview": "Despite a strong performance and a promising chance to secure victory against India in the AFC Asian..."
+    },
+    {
+      "reference": "Hrithik Roshan's sister Sunaina opens up on alcohol addiction",
+      "generated": "Sunaina Roshan opens up on vulnerable state during illness",
+      "content_preview": "Bollywood film actor Hrithik Roshan's sister Sunaina Roshan has faced some severe health crises and ..."
+    },
+    {
+      "reference": "ACI\u2019s revenue rises in Q2",
+      "generated": "ACI\u2019s revenue rises in Q2, but losses decline",
+      "content_preview": "ACI Limited, one of the leading conglomerates in the country, saw its revenue surge in the second qu..."
+    }
+  ]
+}
